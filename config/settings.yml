@@ -8,3 +8,13 @@ plugins:
     default: "/discourse-ai/ai-bot/conversations"
     client: true
     type: text
+    
+  homepage_redirect_first_login_only:
+     default: true
+     client: true
+     type: bool
+
+  homepage_redirect_allow_param:
+     default: true
+     client: true
+     type: bool
